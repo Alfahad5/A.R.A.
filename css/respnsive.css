@@ -1,0 +1,43 @@
+@media screen and (max-width: 1000px) {
+    body {
+        background-color: rgba(6, 5, 5, 0);
+    }
+
+    .slider {
+        width: 400px ;
+    }
+
+    /* .bgimage{
+        content: url("img/respbg.png");
+        width: 100%;
+        height :auto
+        
+    } */
+
+    nav {
+        flex-direction: column;
+    }
+
+    .logo {
+        justify-content: center;
+        max-width: 12px 0;
+    }
+
+    nav ul {
+        justify-content: center;
+        height: 34px;
+    }
+
+    .search {
+        justify-content: center;
+    }
+
+    .search input {
+        margin: 12px 16px;
+    }
+
+    .card-item img {
+        width: 100px;
+        height: auto;
+    }
+}
